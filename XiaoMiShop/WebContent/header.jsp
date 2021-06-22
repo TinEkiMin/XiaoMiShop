@@ -6,7 +6,7 @@
 	// 页面加载完毕事件
 	$(document).ready(function(){
 		$.ajax({
-			url:"${pageContext.request.contextPath}/goodstypeservlet?method=goodsTypeList",
+			url:"GoodTypeServlet?method=goodTypeList",
 			type:"GET",
 			success:function(data){
 				/*
@@ -19,7 +19,7 @@
 				 */
 				// 遍历json数组
 				for(var i in data){
-					var a = $("<a href='${pageContext.request.contextPath}/goodsservlet?method=getGoodsListByTypeId&typeId="+data[i].id+"'>"+data[i].name+"</a>");
+					var a = $("<a href='GoodServlet?method=getGoodsListByTypeId&typeId="+data[i].id+"'>"+data[i].name+"</a>");
 					$("#goodsType").append(a);
 				}
 			},
