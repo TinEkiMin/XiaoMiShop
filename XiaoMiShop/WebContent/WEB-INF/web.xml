@@ -1,54 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="4.0">
+   
   <servlet>
     <description></description>
-    <display-name>userservlet</display-name>
-    <servlet-name>userservlet</servlet-name>
-    <servlet-class>com.edu.seiryo.servlet.userservlet</servlet-class>
+    <display-name>UserServlet</display-name>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>com.edu.seiryo.servlet.UserServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>userservlet</servlet-name>
-    <url-pattern>/userservlet</url-pattern>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/UserServlet</url-pattern>
+  </servlet-mapping>
 
-=======
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
-  <filter>
-    <filter-name>characterEncodingFilter</filter-name>
-    <filter-class>com.qf.filter.CharacterEncodingFilter</filter-class>
-  </filter>
-  <filter-mapping>
-    <filter-name>characterEncodingFilter</filter-name>
-    <url-pattern>/*</url-pattern>
-  </filter-mapping>
->>>>>>> QYM
-=======
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="4.0">
- 
->>>>>>> QYM
-  <servlet>
-    <description></description>
-    <display-name>userservlet</display-name>
-    <servlet-name>userservlet</servlet-name>
-    <servlet-class>com.edu.seiryo.servlet.userservlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>userservlet</servlet-name>
-    <url-pattern>/userservlet</url-pattern>
-  </servlet-mapping>
-  <servlet>
-    <description></description>
-    <display-name>GoodTypeServlet</display-name>
-    <servlet-name>GoodTypeServlet</servlet-name>
-    <servlet-class>com.edu.seiryo.servlet.GoodTypeServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>GoodTypeServlet</servlet-name>
-    <url-pattern>/GoodTypeServlet</url-pattern>
->>>>>>> 1ae447dee444f72606e9601141b627fb68bac860
-  </servlet-mapping>
 </web-app>
