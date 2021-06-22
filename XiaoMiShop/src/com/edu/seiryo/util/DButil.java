@@ -28,7 +28,7 @@ public class DButil {
 	// SQL Server JDBC 连接驱动名称
 	private static final String DRIVER = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
 	// SQL Server 数据库 URL 地址
-	private static final String URL = "jdbc:sqlserver://127.0.0.1:1433;DataBaseName=DormSystem";
+	private static final String URL = "jdbc:sqlserver://127.0.0.1:1433;DataBaseName=XiaoMiMail";
 	private static final String ADMIN = "sa";
 	private static final String PWD = "123";
 	static Connection con = null;
